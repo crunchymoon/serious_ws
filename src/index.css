@@ -1,13 +1,128 @@
-body {
+* {
+  font-family: "Urbanist", sans-serif;
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  pad: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  height: 60px;
 }
+
+.wrapper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.wrapper__center {
+  flex: 1;
+  text-align: center;
+}
+.wrapper__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.wrapper__right-menuItem {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.wrapper__input {
+  border: none;
+}
+
+.language {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.searchCont {
+  border: 1px solid lightgray;
+  margin-left: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.annContainer {
+  height: 30px;
+  background-color: teal;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.slider__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.slider__arrow {
+  width: 50px;
+  height: 50px;
+  background-color: #fff4f4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+.slider__arrow-left {
+  left: 10px;
+  z-index: 2;
+}
+.slider__arrow-right {
+  right: 10px;
+  z-index: 3;
+}
+.slider__wrapper {
+  height: 100%;
+  display: flex;
+}
+.slider__slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.slider__imgContainer {
+  height: 100%;
+  flex: 1;
+}
+.slider__image {
+  height: 80%;
+}
+.slider__info-container {
+  flex: 1;
+  padding: 50px;
+}
+.slider__info-title {
+  font-size: 70px;
+}
+.slider__info-desc {
+  margin: 50px 0;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.slider__info-btn {
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */

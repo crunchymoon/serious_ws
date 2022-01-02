@@ -1,0 +1,121 @@
+* {
+    font-family: "Urbanist", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    pad: 0;
+}
+.container {
+    height: 60px;
+}
+
+.wrapper {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        flex: 1;
+        @include flexCenter;
+    }
+    &__center {
+        flex: 1;
+        text-align: center;
+    }
+    &__right {
+        flex: 1;
+        @include flexCenter;
+        justify-content: flex-end;
+        &-menuItem {
+            font-size: 14px;
+            cursor: pointer;
+            margin-left: 25px;
+        }
+    }
+    &__input {
+        border: none;
+    }
+}
+.language {
+    font-size: 14px;
+    cursor: pointer;
+}
+.searchCont {
+    border: 1px solid lightgray;
+    margin-left: 25px;
+    padding: 5px;
+    @include flexCenter;
+}
+
+.annContainer {
+    height: 30px;
+    background-color: teal;
+    color: white;
+    @include flexCenterAll;
+    font-weight: 500;
+}
+
+.slider {
+    &__container {
+        @include fullScreen;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+    &__arrow {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(255, 244, 244);
+        border-radius: 50%;
+        @include flexCenterAll;
+        position: absolute;
+        top:50%;     
+        cursor: pointer;
+    }
+    &__arrow-left{
+        left: takeToSide(left);
+        z-index: 2;
+    }
+    &__arrow-right{
+        right: takeToSide(right);
+        z-index: 3;
+    }
+    &__wrapper{
+        height: 100%;
+        display: flex;
+    }
+    &__slide{
+        width: 100vw;
+        height: 100vh;
+        @include flexCenter;
+    }
+    &__imgContainer{
+        height: 100%;
+        flex: 1;
+    }
+    &__image{
+        height: 80%;
+    }
+    &__info{
+        &-container{
+            flex: 1;
+            padding: 50px;
+        }
+        &-title{
+            font-size: 70px;
+        }
+        &-desc{
+            margin: 50px 0;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 2px;
+        }
+        &-btn{
+            padding: 10px;
+            font-size: 20px;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+    
+}
+
