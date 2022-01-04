@@ -2,7 +2,7 @@
   font-family: "Urbanist", sans-serif;
   box-sizing: border-box;
   margin: 0;
-  pad: 0;
+  padding: 0;
 }
 
 .container {
@@ -91,6 +91,7 @@
 .slider__wrapper {
   height: 100%;
   display: flex;
+  transition: all 1.5s ease;
 }
 .slider__slide {
   width: 100vw;
@@ -121,8 +122,48 @@
 .slider__info-btn {
   padding: 10px;
   font-size: 20px;
-  background-color: transparent;
   cursor: pointer;
+  background-color: transparent;
+}
+
+.cat__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.catItem__container {
+  flex: 1;
+  margin: 3px;
+  height: 80vh;
+  position: relative;
+}
+.catItem__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.catItem__title {
+  color: white;
+}
+.catItem__btn {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+.catItem__img {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: 50% 60%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=index.css.map */
