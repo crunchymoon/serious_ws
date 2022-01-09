@@ -37,3 +37,38 @@ export const categories = [
     }
 
 ]
+
+export const popularProducts = [
+    {
+        id: 1,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 2,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 3,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 4,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 5,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 6,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 7,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    },
+    {
+        id: 8,
+        img: 'https://m.media-amazon.com/images/I/61K16ewE4xL._AC_UX679_.jpg'
+    }
+]

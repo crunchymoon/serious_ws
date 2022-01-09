@@ -41,7 +41,7 @@ const Slider = () => {
                 </div>
                 <div className="slider__wrapper">
                     {sliderItems.map((item) => {
-                        return <div className="slider__slide">
+                        return <div className="slider__slide" key={item.id}>
                             <div className="slider__imgContainer">
                                 <img className="slider__image" src={item.img}></img>
                             </div>

@@ -154,3 +154,17 @@
         object-fit: cover;
     }
 }
+// products
+.prod {
+    &__container {
+        padding: 20px;
+        display: flex;
+    }
+}
+//singleProduct
+.singleProd{
+    &__cont{
+        flex: 1;
+        margin: 5px;
+    }
+}

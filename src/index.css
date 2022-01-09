@@ -166,4 +166,14 @@
   object-fit: cover;
 }
 
+.prod__container {
+  padding: 20px;
+  display: flex;
+}
+
+.singleProd__cont {
+  flex: 1;
+  margin: 5px;
+}
+
 /*# sourceMappingURL=index.css.map */
