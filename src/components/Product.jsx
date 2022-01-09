@@ -2,9 +2,6 @@ import { FavoriteBorderOutlined,SearchOutlined, ShoppingCartOutlined } from '@ma
 const Product = ({item}) => {
     return ( 
         <div className="singleProd__cont">
-            <div className="singleProd__circle">
-                
-            </div>
             <img src={item.img} alt="" className="singleProd__image" />
             <div className="singleProd__info">
                 <div className="singleProd__icon">
