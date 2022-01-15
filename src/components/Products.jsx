@@ -1,6 +1,5 @@
 import { popularProducts } from "../data";
 import Product from "./Product";
-
 const Products = () => {
     return (
         <div className="prod__container">

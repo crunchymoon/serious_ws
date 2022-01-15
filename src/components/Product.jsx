@@ -1,4 +1,5 @@
 import { FavoriteBorderOutlined,SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
+
 const Product = ({item}) => {
     return ( 
         <div className="singleProd__cont">
