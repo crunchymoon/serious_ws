@@ -301,4 +301,24 @@
   align-items: center;
 }
 
+.product__filterCont {
+  display: flex;
+  justify-content: space-between;
+}
+.product__filter {
+  margin: 20px;
+}
+.product__title {
+  margin: 20px;
+}
+.product__filterText {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.product__select {
+  padding: 10px;
+  margin-right: 20px;
+}
+
 /*# sourceMappingURL=index.css.map */
