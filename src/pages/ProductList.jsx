@@ -5,14 +5,14 @@ import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 const ProductList = () => {
     return (
-        <div className="product__cont">
+        <div className="prodList__cont">
             <Navbar />
             <Announcement />
-            <h1 className="product__title">Dresses</h1>
-            <div className="product__filterCont">
-                <div className="product__filter">
-                    <span className="product__filterText">Filter Products: </span>
-                    <select className='product__select' name="productSelect">
+            <h1 className="prodList__title">Dresses</h1>
+            <div className="prodList__filterCont">
+                <div className="prodList__filter">
+                    <span className="prodList__filterText">Filter prodLists: </span>
+                    <select className='prodList__select' name="prodListSelect">
                         <option disabled selected value="color">Color</option>
                         <option value="white">White</option>
                         <option value="black">Black</option>
@@ -21,7 +21,7 @@ const ProductList = () => {
                         <option value="yellow">Yellow</option>
                         <option value="green">Green</option>
                     </select>
-                    <select className='product__select' name="sizeSelect">
+                    <select className='prodList__select' name="sizeSelect">
                         <option disabled selected value="size">Size</option>
                         <option value="xs">XS</option>
                         <option value="s">S</option>
@@ -30,9 +30,9 @@ const ProductList = () => {
                         <option value="xl">XL</option>
                     </select>
                 </div>
-                <div className="product__filter">
-                    <span className="product__filterText">Sort Products: </span>
-                    <select className='product__select' name="sortSelect">
+                <div className="prodList__filter">
+                    <span className="prodList__filterText">Sort prodLists: </span>
+                    <select className='prodList__select' name="sortSelect">
                         <option selected value="newest">Newest</option>
                         <option value="price">Price (asc)</option>
                         <option value="price">Price (desc)</option>
