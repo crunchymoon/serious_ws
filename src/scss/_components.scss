@@ -69,18 +69,27 @@
         display: flex;
     }
 
-    &__title{
+    &__title {
         margin-bottom: 30px;
     }
-    &__list{
+    &__list {
         margin: 0;
         padding: 0;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
     }
-    &__listItem{
+    &__listItem {
         width: 50%;
         margin-bottom: 10px;
     }
+}
+
+@mixin amountManager {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: 1px teal solid;
+    @include flexCenterAll;
+    margin: 0 5px;
 }

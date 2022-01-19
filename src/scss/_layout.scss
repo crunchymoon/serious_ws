@@ -298,4 +298,46 @@
         font-weight: 100;
         font-size: 40px;
     }
+    &__filterCont {
+        @include flexSbween;
+        margin: 20px 0;
+    }
+    &__filter {
+        display: flex;
+        align-items: center;
+    }
+    &__filterColor {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    &__filterSize {
+        @include amountManager;
+        width: 50px;
+    }
+    //addCont
+    &__addCont {
+        @include flexSbween;
+    }
+    &__amountCont {
+        @include flexCenter;
+        font-weight: 700;
+    }
+    &__amount {
+        @include amountManager;
+    }
+    &__addBtn {
+        @include btnStyle;
+    }
+}
+.black {
+    background-color: black;
+}
+.gray {
+    background-color: gray;
+}
+.blue {
+    background-color: blue;
 }
