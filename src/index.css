@@ -414,6 +414,7 @@
 .register__cont {
   width: 100vw;
   height: 100vh;
+  background-color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -421,6 +422,7 @@
 .register__wrapper {
   padding: 20px;
   width: 40%;
+  background-color: white;
 }
 .register__form {
   display: flex;
@@ -430,6 +432,41 @@
   flex: 1;
   min-width: 40%;
   margin: 20px 10px 0 0;
+}
+.register__inputBtn {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.login__cont {
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__wrapper {
+  padding: 20px;
+  width: 40%;
+  background-color: white;
+}
+.login__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.login__input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0 0;
+}
+.login__inputBtn {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=index.css.map */

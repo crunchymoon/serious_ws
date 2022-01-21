@@ -347,19 +347,56 @@
     &__cont {
         width: 100vw;
         height: 100vh;
+        background-color: aquamarine;
         @include flexCenterAll;
     }
     &__wrapper {
         padding: 20px;
         width: 40%;
+        background-color: white;
     }
     &__form {
         display: flex;
         flex-wrap: wrap;
     }
     &__input {
-        flex:1;
+        flex: 1;
         min-width: 40%;
-        margin: 20px 10px 0 0 ;
+        margin: 20px 10px 0 0;
+    }
+    &__inputBtn {
+        padding: 5px 10px;
+        cursor: pointer;
+        margin: 10px 0;
+    }
+}
+
+//login
+.login {
+    &__cont {
+        width: 100vw;
+        height: 100vh;
+        background-color: aquamarine;
+        @include flexCenterAll;
+    }
+    &__wrapper {
+        padding: 20px;
+        width: 40%;
+        background-color: white;
+    }
+    &__form {
+        @include flexSbween;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__input {
+        flex: 1;
+        min-width: 40%;
+        margin: 20px 10px 0 0;
+    }
+    &__inputBtn {
+        padding: 5px 10px;
+        cursor: pointer;
+        margin: 10px 0;
     }
 }
