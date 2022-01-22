@@ -469,4 +469,48 @@
   margin: 10px 0;
 }
 
+.cart__wrapper {
+  padding: 20px;
+}
+.cart__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart__top-btn {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cart__title {
+  text-align: center;
+  font-weight: 300;
+}
+.cart__topText {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.cart__top-btn:first-of-type {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
+.cart__top-btn {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+}
+
+.cart__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__info {
+  flex: 3;
+}
+.cart__summary {
+  flex: 1;
+}
+
 /*# sourceMappingURL=index.css.map */

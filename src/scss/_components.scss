@@ -93,3 +93,13 @@
     @include flexCenterAll;
     margin: 0 5px;
 }
+
+@function inverse($color) {
+    $result: ();
+    @if $color== black{
+        $result: lighten($color, 100%)
+    } @else {
+        $result: darken($color,100%)
+    }
+    @return $result;
+}

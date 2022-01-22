@@ -400,3 +400,48 @@
         margin: 10px 0;
     }
 }
+//cart
+.cart {
+    &__wrapper {
+        padding: 20px;
+    }
+    &__top {
+        @include flexSbween;
+        align-items: center;
+        &-btn {
+            padding: 10px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        text-align: center;
+        font-weight: 300;
+    }
+    &__topText {
+        text-decoration: underline;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+    &__top-btn:first-of-type {
+        border: 2px solid black;
+        color: inverse(white);
+        background-color: inverse(black);
+    }
+    &__top-btn {
+        border: 2px solid black;
+        color: inverse(black);
+        background-color: inverse(white);
+    }
+}
+.cart {
+    &__bottom {
+        @include flexSbween;
+    }
+    &__info {
+        flex: 3;
+    }
+    &__summary {
+        flex: 1;
+    }
+}
